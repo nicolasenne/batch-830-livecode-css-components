@@ -18,13 +18,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center; /* Adicionei um justify-content pra centralizar o conteúdo do cartão */
 }
 
 .card-blue h3,
 .card-blue h4,
 .card-blue p {
-  margin: 15px;
+  margin: 15px; /* Adicionei uma margem pra controlar a proximidade dos itens do cartão azul, pois o flexbox muda a distância de cada item */
 }
 
 .cards h4 {
